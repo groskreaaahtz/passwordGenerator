@@ -1,0 +1,85 @@
+@font-face {
+    src: url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    font-weight: extra-bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #D5D4D8;
+    margin-bottom: 51px;
+}
+.bottonSection{
+    display:flex;
+    flex-direction: row;
+    gap:25px;
+}
+
+button{
+    color: white;
+    background-color: #4ADF86;
+    padding: 9px 15px;
+    border-radius: 6px; 
+    font-size: 16px;
+    font-weight: light;
+    margin-bottom: 35px;
+}
+
+.clearPws{
+    background-color: #9CA3AF;
+}
+
+hr{
+ border: 1px solid #2F3E53;
+ width: 442px;
+ margin-left: -5px;
+}
+
+.content{
+    background-color: #1F2937;
+    width: 474px;
+    height: 550px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding-top: 115px;
+    padding-left: 52px;
+    border: 1px solid #4ADF86;
+}
+
+.greenText{
+    color: #4ADF86;
+}
+
+.createdPasswords{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;;
+    gap: 24px;
+    margin-left: -40px;
+}
+
+.passwordField{
+    background-color: #273549;
+    border-radius: 6px;
+    width: 211px;
+    height: 39px;
+    color: #4ADF86;
+    text-align: center;
+    line-height: 2.30;
+}
